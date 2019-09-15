@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>CSS Dinner shoping list</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <style>
+        * {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        header,
+        .footer {
+            background-color: #494e55;
+            text-align: center;
+            color: #e97d7e;
+        }
+
+        body {
+            background-color: #383d43;
+        }
+
+        * {
+            transition: all .1s ease-in;
+        }
+
+
+        section {
+            background-color: #89849f;
+            width: 60%;
+            margin: 0 auto;
+
+        }
+
+        /*
+   
+ form:enabled {
+     background-color: #625e78;
+ }
+    *:focus{
+        border-top: 3px solid white;
+        border-bottom: 3px solid white;
+    }
+input {
+    margin: 20px;
+}
+    input {border-style: solid  white;}
+    */
+
+
+        form:hover {
+            background-color: #625e78;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>CSS Dinner shoping list</h1>
+        <p>Let's go to the mall!</p>
+    </header>
+    <main>
+        <section>
+            <form action="/" method="POST">
+                <input type="checkbox" id="1"> <label for="1">lot of pickles <span> (for the next lessons about
+                        CSS)</span></label><br>
+                <input type="checkbox" id="2"><label for="2">10 apples<span> (for more CSS
+                        manipulations)</span></label><br>
+                <input type="checkbox" id="3"><label for="3">20 oranges<span> (because they are
+                        awesome)</span></label><br>
+                <input type="checkbox" id="4"><label for="4">13 plates<span> (hm...they always
+                        dissapear)</span></label><br>
+                <input type="checkbox" id="5"><label for="5">15 bentos</label><br>
+                <input type="checkbox" id="6"><label for="6"></label>1 buttle of Sake ^_^<span>(for me friends)</span>
+            </form>
+        </section>
+    </main>
+    <br>
+    <footer>
+        <section class="footer">
+            Bon appetit!
+        </section>
+
+    </footer>
+
+</body>
+
+</html>
